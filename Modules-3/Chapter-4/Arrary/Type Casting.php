@@ -25,4 +25,7 @@ echo var_dump($y);
 $z=30;
 $z=(object)$z;
 echo var_dump($z);
+
+$let ="Ravi";
+$let=(array)$let;
 ?>
