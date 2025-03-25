@@ -2,7 +2,7 @@
 
     echo "<h1>first type print the value of foreash</h1>";
 
-    $users=["Ravi","Shankar", "Rahul", "Raj", "Sukanyaa"];
+    $users=["Ravi","Shankar", "Rahul", "Raj", "Sukanyaa", "Anu", "Divyansha"];
 
     foreach ($users as $i){
         if($i=="Raj"){

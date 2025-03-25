@@ -28,13 +28,14 @@ session_start();
 
 if(isset($_POST["btn"])){
     if($_POST["btn"]=="set"){
-       $let=$_POST["username"];
+       $let=$_POST['username'];
        $_SESSION["username"]=$let;
 
     }elseif($_POST["btn"]=="get"){
-        echo $_SESSION["username"];
+        echo $_SESSION['username'];
+
     }elseif($_POST["btn"]=="Delete"){
-        unset($_SESSION["username"]);
+        unset($_SESSION['username']);
     }else{
         echo "Invalid Button";
     }

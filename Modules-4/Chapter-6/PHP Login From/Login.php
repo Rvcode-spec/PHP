@@ -6,7 +6,7 @@ echo $_GET['password'];
 
 }
 
-// echo "this is a login page data";
+echo "this is a login page data";
 
 
 ?>

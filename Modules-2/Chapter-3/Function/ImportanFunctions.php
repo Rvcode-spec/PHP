@@ -13,7 +13,7 @@ echo "<br>";
 
 echo date("l");
 echo "<br>";
-// echo phpinfo();// check the details in php
+echo phpinfo();// check the details in php
 
 $let = "Ravi";
 echo is_string($let); // Check  String or not String

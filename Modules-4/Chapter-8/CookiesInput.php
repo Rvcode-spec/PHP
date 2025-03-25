@@ -24,15 +24,15 @@
 <?php
 
 if(isset($_POST['btn'])){
-    if($_POST['btn'] == 'set'){
+    if($_POST['btn'] == "Set Cookie"){
         setcookie("name", $_POST['name'], time() + 3600);
         echo "Cookie set";
-    }elseif($_POST['btn']=='Display'){
+    }elseif($_POST['btn']== "Display"){
         if(isset($_COOKIE['name'])){
             echo "Cookie name: ".$_COOKIE['name'];
         }
 
-    }elseif($_POST['btn']=='Delete'){
+    }elseif($_POST['btn']=='Delete Cookie'){
         setcookie("name","",time()-3600);
     }
 

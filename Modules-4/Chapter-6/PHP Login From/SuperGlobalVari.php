@@ -1,12 +1,12 @@
 <?php
 
-// print_r($_ENV);
+print_r($_ENV);
 echo "<br>";
-// print_r($_COOKIE);
+print_r($_COOKIE);
 echo "<br>";
-// print_r($_FILES);
+print_r($_FILES);
 echo "<br>";
-// print_r($_GET);
+print_r($_GET);
 echo "<br>";
 // print_r($_REQUEST);
 echo "<br>";
